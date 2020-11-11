@@ -370,11 +370,12 @@ section {
 }
 
 .testimonial-box {
-	background-color: #ffffff;
+	background-color: #dcdcdc;
 	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
 	border-radius: 20px;
 	padding: 20px 30px;
 	margin-top: 30px;
+	height: 700px;
 }
 
 .testimonial-box h6 {
@@ -383,6 +384,7 @@ section {
 	letter-spacing: .05em;
 	margin-top: 5px;
 	margin-bottom: 0px;
+	margin-left: 10px;
 }
 
 .testimonial-box p {
@@ -400,6 +402,7 @@ section {
 .testimonial-box small {
 	color: #8da2b5;
 	display: inline-block;
+	margin-left: 10px;
 }
 
 .testimonial-box span {
@@ -451,6 +454,7 @@ section {
 	border-radius: 6px;
 	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
 	margin-top: 30px;
+	height: 650px;
 }
 
 .pricing-box h3 {
@@ -509,7 +513,7 @@ section {
 ===============================================*/
 
 #call-to-action {
-	background-image: url('images/call-to-action.png');
+	background-image: url('images/Calltoaction2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -578,12 +582,12 @@ section {
 }
 
 #testimonials{
-	background-color: #3d3d3b!important;
+	background-color: #ffffff!important;
 }
 
-#testimonials h2{
+/* #testimonials h2{
 	color: #ffffff
-}
+} */
 
 #pricing{
 	background-color: #3d3d3b!important;
@@ -807,7 +811,7 @@ footer small {
 	}
 	.testimonial-box h6 {
 		font-size: 14px;
-		margin-left: 10px;
+		margin-left: 15px;
 	}
 	.testimonial-box span {
 		font-size: 12px;
