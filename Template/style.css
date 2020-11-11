@@ -230,10 +230,67 @@ section {
 	color: #ffffff;
 }
 
+.home-choices-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.choices-card-cover {
+    height: auto;
+    padding: 30px 40px 20px 40px;
+}
+
+.home-left {
+    margin-bottom: 4px!important;
+    height: 240px;
+}
+
+.home-right {
+    margin-top: 4px!important;
+		height: 240px;
+}
+
+.hero-subtitle {
+    font-family: Open Sans, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0.06px;
+    line-height: 50px;
+}
+.choice-button-home-sm {
+    background: #00A2D4;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border: none;
+    border-radius: 4px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+    text-align: center;
+    height: 54px;
+    width: 120px;
+    margin-top: 24px;
+}
+
+.button-white {
+    background: #FFFFFF!important;
+    color: #121212!important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)!important;
+    position: relative;
+}
+
 /* ==============================================
    4. Hero
 ===============================================*/
-
+.logo{
+	height: 10px
+}
 #hero {
 	background-color: #f6f8f9;
 }
@@ -246,7 +303,7 @@ section {
 #hero p {
 	font-size: 24px;
     font-weight: 300;
-    color: #8da2b5;
+    /* color: #8da2b5; */
     margin-bottom: 0px;
     padding: 0px;
 }
@@ -258,6 +315,27 @@ section {
     letter-spacing: .05em;
 }
 
+#hero{
+	background-image: url('images/homenegro.jpg');
+	/* filter: blur(8px);
+ -webkit-filter: blur(8px); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+
+#hero h1 {
+	color: #ffffff;
+}
+
+#hero h2 {
+	color: #ffffff;
+}
+
+#hero p {
+	color: #ffffff;
+}
 /* ==============================================
    5. Marketing
 ===============================================*/
@@ -346,7 +424,15 @@ section {
 }
 
 .review-one {
-  background-image: url('images/profile-picture-one.jpg');
+  background-image: url('images/Lnieto.jpg');
+}
+
+.review-two {
+  background-image: url('images/moviedo.jpg');
+}
+
+.review-three {
+  background-image: url('images/jcampos.png');
 }
 
 .personal-info {
@@ -489,6 +575,18 @@ section {
 
 #what-we-do .title-block {
 	margin-bottom: 0px;
+}
+
+#testimonials{
+	background-color: #3d3d3b!important;
+}
+
+#testimonials h2{
+	color: #ffffff
+}
+
+#pricing{
+	background-color: #3d3d3b!important;
 }
 
 /* ==============================================

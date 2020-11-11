@@ -27,10 +27,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon ion-md-menu"></span>
     </button>
-    <img src="images/logo.png" class="img-fluid nav-logo-mobile" alt="Company Logo">
+    <img src="images/LogoFrontier.png" class="img-fluid nav-logo-mobile" alt="Company Logo">
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <div class="container">
-      	<img src="images/logo.png" class="img-fluid nav-logo-desktop" alt="Company Logo">
+      	<img src="images/LogoFrontier.png" class="img-fluid nav-logo-desktop" alt="Company Logo">
         <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="index.html">Inicio <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -55,12 +55,13 @@
 
   <!-- H E R O -->
   <section id="hero">
+    <div class="bg-image"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-          <img src="images/iphone.png" class="img-fluid" alt="Demo image">
-        </div>
-        <div class="col-md-7 content-box hero-content">
+        <!-- <div class="col-md-7">
+          <img src="images/home.jpg" class="img-fluid" alt="Demo image">
+        </div> -->
+        <div class="col-md-5 content-box hero-content">
           <span>Market Place</span>
           <h1>Frontier Analytics <b>Democratizando el poder de los datos</b></h1>
           <p>Potencializa tu negocio con la inteligencia artificial</p>
@@ -70,20 +71,32 @@
   </section>
   <!-- E N D  H E R O -->
   <!-- C A L L  T O  A C T I O N -->
-  <section id="what-we-do">
-    <div class="container text-center">
-      <h2>¡Que hacemos!</h2>
-      <div class="title-block">
-        <p>¿Quién eres?</p>
-        <a href="#" class="btn btn-regular">Empresa</a>
-        <br>
-        <a href="#" class="btn btn-regular">Científico de datos</a>
-      </div>
+  <section id="choices">
+    <div class="home-choices-row">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="choices-card-cover home-left" style="background-image:  url('images/choicesB.jpg'); background-size: cover; background-repeat: no-repeat">
+            <div class="hero-subtitle">
+              Empresa
+            </div>
+            <!-- <button id="choices-0-button" class="choice-button-home-sm button-white" onclick="choices0()">Conoce más<img class="fa fa-arrow-right" src="https://images.ctfassets.net/j5zqortrwrmy/1DcAyLxrWEQpcfYgTv8hba/07d0ea10c61931f8383c04d5b8258cf1/Arrow.svg"></button> -->
+            <a href="#" class="btn btn-regular">Conoce más</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="choices-card-cover home-right"style="background-image:  url('images/choicesDS.jpg'); background-size: cover; background-repeat: no-repeat">
+            <div class="hero-subtitle">
+              Científico de datos
+            </div>
+            <!-- <button id="choices-1-button" class="choice-button-home-sm button-white" onclick="choices1()">Conoce más<img class="fa fa-arrow-right" src="https://images.ctfassets.net/j5zqortrwrmy/1DcAyLxrWEQpcfYgTv8hba/07d0ea10c61931f8383c04d5b8258cf1/Arrow.svg"></button> -->
+            <a href="#" class="btn btn-regular">Conoce más</a>
+          </div>
+        </div>
     </div>
   </section>
   <!-- E N D  C A L L  T O  A C T I O N -->
   <!-- Company -->
-  <section id="company">
+  <!-- <section id="company">
     <div class="container">
       <div class="row">
         <div class="col-md-12 content-box hero-content">
@@ -92,10 +105,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- E N D  COMPANY -->
   <!-- DATA SCIENTIST-->
-  <section id="data_scientist">
+  <!-- <section id="data_scientist">
     <div class="container">
       <div class="row">
         <div class="col-md-12 content-box hero-content">
@@ -104,20 +117,20 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- E N D  DATA SCIENTIST -->
   <!-- P R I C I N G -->
   <section id="pricing">
     <div class="container">
       <div class="title-block">
-        <h2>Modelo de beneficio compartido</h2>
-        <p>Queremos tomar el riesgo(cambiar suena negativo).</p>
+        <h2 style="color: #ffffff">Analitíca basada en un beneficio y riesgo compartido</h2>
+        <p style="color: #ffffff">Crece tu negocio por medio de la inteligencia artificial con nosotros. Buscamos ser el primer market place de data science en Colombia, donde puedas realizar tus proyectos de ciencia de datos con equipo temporal, durante el tiempo que el proyecto agregue valor a tu empresa.</p>
       </div>
       <div class="row">
         <div class="col-md-6">
           <div class="pricing-box">
             <h3 class="demo">Prueba</h3>
-            <h6>Free</h6>
+            <h6>$1000 USD</h6>
             <small>forever</small>
             <p>Demo gives you full access to all features for 7 days</p>
             <div class="divider-light"></div>
@@ -136,8 +149,8 @@
         <div class="col-md-6">
           <div class="pricing-box">
             <h3>Riesgo compartido</h3>
-            <h6>$$$</h6>
-            <small>per month</small>
+            <h6>$*</h6>
+            <small>*Se mide con base a los resultados</small>
             <p>Outrank your competitors with this amazing software</p>
             <div class="divider-light"></div>
             <ul>
@@ -180,7 +193,7 @@
     <div class="container">
       <div class="title-block">
         <h2>Quiénes somos</h2>
-        <p>Escribir un texto que nos describa</p>
+        <p style="color: #ffffff"> Escribir un texto que nos describa</p>
       </div>
       <div class="row">
         <div class="col-md-4">
@@ -190,42 +203,42 @@
                 <div class="profile-picture review-one"></div>
               </div>
               <div class="col-md-10 col-xs-10">
-                <h6>Joshua M. Salas <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
-                <small>Marketing Intelligence | Author & Content Creator</small>
+                <h6>Luis Nieto </h6>
+                <small>Arquitecto de tecnología</small>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, tortor nec mattis feugiat, velit purus euismod odio, quis vulputate velit urna sit amet enim. Maecenas vulputate auctor ligula sed sollicitudin.</p>
+            <p>Entusiasta en la búsqueda de la competitividad permanente y transformaciones profundas de personas, organizaciones y ecosistemas de negocio. Mastér en Transformación Digital y Desarrollo de negocios, Ingeniero Industrial, Design Thinker y especialista en gerencia de proyectos ágiles. Amplia experiencia en posicionamiento e implantaciones de proyectos de innovación, tecnología y procesos apoyados en herramientas digitales de clase mundial y con promesas de valor garantizada. Enfocado al logro y siempre asegurando los objetivos de la compañía desde el punto de vista estratégico así como con los compromisos financieros y de operación exigidos. </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="testimonial-box">
             <div class="row personal-info">
               <div class="col-md-2 col-xs-2">
-                <div class="profile-picture review-one"></div>
+                <div class="profile-picture review-two"></div>
               </div>
               <div class="col-md-10 col-xs-10">
-                <h6>Michael Edwards <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
-                <small>Seo Consultant | Author & Content Creator</small>
+                <h6>Martín Oviedo</h6>
+                <small>Data Scientist</small>
               </div>
             </div>
-            <p>In euismod, metus ac elementum tincidunt, dui eros ullamcorper lorem, at euismod augue augue quis leo. Fusce non dui augue. In hac habitasse platea dictumst. Mauris quis lacinia mauris. Proin ut pretium quam. Nam at ex finibus.</p>
+            <p>Amante de los datos y de la innovación con sentido de negocio. Encantado por resolver problemas de formas únicas y personalizadas basadas en Inteligencia Artificial. Estudios en Ciencia Política y Administración de Empresas en la Universidad de los Andes -grado con honores-. Con un posgrado en Administración de Empresas en la Universidad del Rosario -Magna Cum Laude-. </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="testimonial-box">
             <div class="row personal-info">
               <div class="col-md-2 col-xs-2">
-                <div class="profile-picture review-one"></div>
+                <div class="profile-picture review-three"></div>
               </div>
               <div class="col-md-10 col-xs-10">
-                <h6>Michael Edwards <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
-                <small>Seo Consultant | Author & Content Creator</small>
+                <h6>Juan Campos</h6>
+                <small>Machine Learning Engineer</small>
               </div>
             </div>
-            <p>In euismod, metus ac elementum tincidunt, dui eros ullamcorper lorem, at euismod augue augue quis leo. Fusce non dui augue. In hac habitasse platea dictumst. Mauris quis lacinia mauris. Proin ut pretium quam. Nam at ex finibus.</p>
+            <p>Construcción de modelos analíticos para diferentes industrias tales como cajas de compensación o centros de distribución. Experiencia trabajando con clientes como Colsubsidio a nivel Colombia, y KOF FEMSA a nivel global. </p>
           </div>
         </div>
-        <a href="#" class="btn btn-regular">Solicita tu prueba</a>
+        <!-- <a href="#" class="btn btn-regular">Solicita tu prueba</a> -->
       </div>
     </div>
   </section>
