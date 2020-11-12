@@ -822,3 +822,51 @@ footer small {
 		margin-left: 10px;
 	}
 }
+
+/* hero_comp */
+
+#hero_comp {
+	background-color: #f6f8f9;
+}
+
+#hero_comp h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#hero_comp p {
+	font-size: 24px;
+    font-weight: 300;
+    /* color: #8da2b5; */
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#hero_comp span {
+	font-weight: 400;
+    color: #0095f7;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+#hero_comp{
+	background-image: url('images/homenegro.jpg');
+	/* filter: blur(8px);
+ -webkit-filter: blur(8px); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+
+#hero_comp h1 {
+	color: #ffffff;
+}
+
+#hero_comp h2 {
+	color: #ffffff;
+}
+
+#hero_comp p {
+	color: #ffffff;
+}
