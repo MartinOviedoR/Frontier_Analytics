@@ -232,26 +232,22 @@ section {
 
 .home-choices-row {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 0 auto;
-    text-align: center;
-}
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.choices-card-cover {
-    height: auto;
-    padding: 30px 40px 20px 40px;
-}
-
-.home-left {
-    margin-bottom: 4px!important;
-    height: 240px;
-}
-
-.home-right {
-    margin-top: 4px!important;
-		height: 240px;
-}
+	.choices-card-cover {
+	    height: 376px;
+	    margin: 0!important;
+	    width: 50%;
+	    padding: 180px 0 0 80px;
+	  }
+	  .home-left {
+	    margin-right: 4px!important;
+	  }
+	  .home-right {
+	    margin-left: 4px!important;
+	  }
 
 .hero-subtitle {
     font-family: Open Sans, sans-serif;
@@ -872,18 +868,6 @@ footer small {
 }
 
 .choices {
-    background: #F7F8F9;
-    text-align: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    min-height: fit-content;
-    padding: 48px 40px;
-}
-.choices {
-	padding: 48px 20px;
-}
-.choices {
 	background: #F7F8F9;
 	height: fit-content;
 	text-align: center;
@@ -903,18 +887,13 @@ footer small {
     font-size: 28px;
     color: #121212;
     letter-spacing: 0.06px;
-    margin-bottom: 24px;
-    text-align: left;
-}
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
 
 /* @media screen and (max-width: 768px) */
-.choices-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: fit-content;
-    position: relative;
-}
 .choices-row {
 	width: auto;
 	display: flex;
@@ -940,14 +919,6 @@ footer small {
 }
 /* @media screen and (max-width: 768px) */
 .choice-card {
-    margin: 16px 0;
-    padding: 20px;
-    min-height: 340px;
-    width: inherit;
-    position: relative;
-    text-align: center;
-}
-.choice-card {
 	margin: 0 12px;
 	padding: 32px 0;
 	position: relative;
@@ -960,18 +931,7 @@ footer small {
 	width: 52px;
 }
 /* @media screen and (max-width: 768px) */
-.card-standard {
-    flex-shrink: 0;
-    background: #FFFFFF;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
-    border-radius: 4px;
-    width: 295px;
-    min-height: 340px;
-    height: fit-content;
-    margin-bottom: 32px;
-    text-align: center;
-    position: relative;
-}
+
 .choices-title {
 	font-family: Open Sans, sans-serif;
 	font-weight: 700;
@@ -1014,19 +974,33 @@ footer small {
 
 .choice-card-title {
     font-family: Open Sans, sans-serif;
-    font-weight: 700;
     font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
     color: #121212;
     letter-spacing: 0.05px;
-    margin-bottom: 12px;
-}
+    padding: 0 32px;
+    margin-bottom: 18px;
+    margin-top: 32px;
+    text-align: left;
+  }
 
-.choice-card-text {
-    color: #595959;
-    font-family: Open Sans, sans-serif;
-    margin-bottom: 24px;
-}
-
+	.choice-card-text {
+	    font-family: Open Sans, sans-serif;
+	    font-size: 16px;
+	    font-weight: 100;
+	    line-height: 24px;
+	    color: #595959;
+	    letter-spacing: 0.05px;
+	    text-align: left;
+	    height: 50%;
+	    padding: 0 32px 32px 32px;
+	  }
+		.home-choices-row {
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: space-between;
+		  }
 .choices-card-cover {
 	height: 376px;
 	margin: 0!important;
